@@ -33,121 +33,118 @@ sidebar:
       - idiom: Telugu
         level: Native
         
-    #interests:
-    #  - item: Climbing
-    #    link:
+    interests:
+      - item: Operating Systems
+        #link:
+      - item: Distributed Systems
 
-    #  - item: Snowboarding
-    #    link:
+      - item: Compilers 
+        #link:
+      
+      - item: Network Security
 
     #  - item: Cooking
     #    link:
 
-career-profile:
-    title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+# career-profile:
+#     title: Software Engineer
+#     summary: |
+#       Worked in jkSummarise your career here lorem ipsum dolor sit amet, consectetuer
+#       adipiscing elit. You can [download this free resume/CV template here]().
+#       Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+#       penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+#       Donec quam felis, ultricies nec, pellentesque eu.
 
-      Second paragraph if required.
+#       Second paragraph if required.
 
 education:
     - degree: MSc in Computer Science
       university: Stony Brook University
       time: 2018 - Present
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point 
+        I am currently pursuing my Master's degree in Computer Science from Stony Brook University. 
+        My interests lies in systems domain mainly on file systems and compilers. I am also interested
+        in building large scale distributed systems. Below are the courses I have taken.
+          - Advanced Compiler Design
+          - Computer Graphics
+          - Network Security
 
     - degree: BTech in Computer Science and Engineering
       university: Indian Institute of Technology Kharagpur
       time: 2011 - 2015
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point 
+        I graduated from Indian Institute of Technology Kharagpur(IIT KGP) with Honors in Computer Science and Engineering.
+        Professor Sudeb Prashant Pal has advised me on my thesis "Local Computation in Hypergraph Bicoloring". Some of the 
+        courses that I have taken during my undergrduate course are listed below.
+          - Operation Systems
+          - Distributed Systems
+          - Computer Architecture
+          - Compiler Design
 
 experiences:
     - role: Member of Technical Staff
       time: Nov 2015 - Aug 2018
       company: Edge Verve Systems
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-
-          - Bullet point
-          - Bullet point 
+        During my time at Edgeverve I have worked with various techologies and products. The important one is the
+        "oe-workflow", which is a BPMN 2.0 (Business Process Management Notation) execution engine. Business process 
+        are complictaed with relations to other processes and so the BPMN was introduced to easily design and deploy these
+        processes. This closes the gap between the managers who know these processes and developers who have to build them.
+        "oe-workflow" takes a workflow drawn according to BPMN 2.0 standards and executes it with the given set of constraints.
+        It has been develkoped as an alternative to Redhat jBPM and Activity workflow executors. It helps in reducing a cost of 
+        100K USD every year interms of support costs.  
+          - Nodejs
+          - Loopback
+          - MongoDB 
 
     - role: Consultant
       time: Aug 2015 - Nov 2015
       company: EXL
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+        I worked on developing a subscription model to predict the flow of user subscriptions to an entertainmnet website.
+        Developed the prototype in SAAS and delivered the product in Python and Amazon Redshift.
+          - Python 
+          - SAAS 
+    - role: Research Intern
+      time: May 2014 - Jul 2014
+      company: IDRBT
+      details: |
+        I worked on developing a novel process to store fingerprints which is a domain of cancelable biomterics. The goal of
+        the project is to develop a system which can transform fingerprints one way and any adversary who tries to recreate the 
+        original fingerprint should fail. The same system should also work for authentication and identification using fingerprints.
+        This is similar to hashing passwords instead of using plain text while storing or using for authentication of a user.
 
 projects:
     title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    #intro: >
+    
 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Garuda
+        #link: "#hook"
+        tagline: "A generalized framework for IoT malware detection using static and dynamic analysis."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Image based Tree modeling
+        #link: "#"
+        tagline: "A graphics package which generates 3D computer graphic tree models from images."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: P2P multiplayer game
+        #link: "#"
+        tagline: "A P2P multiplayer game with no server. Implemented in Unity game engine as part of Distributed Systems Course."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      # - title: 
+      #   #link: "#"
+      #   tagline: ""
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+#publications:
+#title: Publications
+#    intro: |
+#You can list your publications in this section. Lorem ipsum dolor sit
+#      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#      bibendum fringilla a eu lectus.
 
-    papers:
+#    papers:
         #- title: The Art of Computer Programming
         #authors: Donald E. Knuth
         #conference: Addison-Wesley, 1968
@@ -164,6 +161,9 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
+      - name: C
+      - level: 90%
+      
       - name: C++
         level: 85%
 
@@ -176,8 +176,6 @@ skills:
       - name: Nodejs
         level: 85%
 
-      - name: Sketch & Illustrator 
-        level: 60%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+#footer: >
+#    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
